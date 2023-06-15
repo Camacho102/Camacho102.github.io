@@ -1,0 +1,259 @@
+body {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+/* Navbar code to prevent pushing div content to the bottom */
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+/*First Section*/
+
+.first-section {
+    height: 761px;
+}
+/* For divs, text, images, that you want to respect width until shrunk, use px or em since using % shrinks div, images, and content depending on screen size*/
+h1 {
+    font-size: 72px;
+}
+p {
+    /* 1em is = 16px */
+    font-size: 1em; 
+}
+h2 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 24px;
+}
+.title-div {
+   background-color: rgba(0, 0, 0, 0.419); 
+   border-radius: 1em;
+   width: 720px;
+   height: 430px;
+   padding: 10px;
+
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+
+   box-shadow: rgba(26, 26, 26, 0.4) 0px 0px 40px 0px;
+}
+
+.carousel-item {
+    height: 760px;
+}
+  .first-carousel-item {
+    background-image: url(../images/lake-bg.jpg);
+  }
+  .second-carousel-item {
+    background-image: url(../images/img2.jpg);
+    
+  }
+  .third-carousel-item {
+    background-image: url(../images/img3.jpg);
+  } 
+  
+  .center-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .video {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+/*Second Section*/
+
+.grid-container1 {
+    width: 1280px;
+    display: grid;
+    grid-template-columns: .1fr 1.5fr 1.4fr 1fr .6fr 1.35fr .1fr;
+    grid-template-rows: .25fr 2.2fr .25fr .25fr 1.2fr .35fr .25fr;
+
+    color: black;
+}
+
+.img1 {
+    background-image: url(../images/img1.jpg);
+    height: 496px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(26, 26, 26, 0.55) 0px 0px 31px 0px;
+
+    grid-area: 2 / 2 / 5 / 4;
+}
+
+.s2-text-div1 {
+    padding: 30px 60px 0px 50px;
+
+    grid-area: 2 / 4 / 3 / 7;
+}
+
+.quote-icon {
+    position: relative;
+    top: 45px;
+    z-index: -1;
+}
+
+.s2-text-div2 {
+    padding: 0px 20px 0px 20px;
+
+    grid-area: 5 / 2 / 7 / 3;
+}
+
+.img2 {
+    background-image: url(../images/img2.jpg);
+    height: 365px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(26, 26, 26, 0.55) 0px 0px 31px 0px;
+
+    grid-area: 3 / 3 / 7 / 6;
+}
+
+.s2-text-div3 {
+    background-color: rgb(238, 239, 239);
+    padding: 24px 35px 0px 28px;
+    box-shadow: rgba(26, 26, 26, 0.55) 0px 0px 31px 0px;
+
+    grid-area: 4 / 5 / 6 / 7;
+}
+
+/*Third Section*/
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+  }
+  
+  .grid-container2 {
+    width: 1280px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 2.3fr 1fr .6fr .8fr 1fr .3fr .5fr;
+    grid-template-rows: .2fr .75fr .25fr .75fr .75fr .45fr .35fr .3fr;
+
+    color: black;
+  }
+  
+  .img3 {
+    background-image: url(../images/Pictograma.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #00aed9;
+
+    background-position: center;
+    box-shadow: rgba(26, 26, 26, 0.55) 0px 0px 31px 0px;
+    z-index: 3;
+    
+    grid-area: 2 / 4 / 6 / 7;
+  }
+  
+  .img4 {
+    background-image: url(../images/img4.jpg);
+    z-index: 1;
+  
+    grid-area: 3 / 3 / 7 / 6;
+    
+  }
+  
+  .s3-text-div {
+    grid-area: 4 / 1 / 7 / 1;
+    padding: 0px 100px 0px 40px;
+  }
+  
+  .img5 {
+    background-image: url(../images/img5.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(26, 26, 26, 0.55) 0px 0px 31px 0px;
+    z-index: 2;
+  
+    grid-area: 5 / 2 / 8 / 5;
+    
+  }
+
+
+
+
+/*Fourth Section*/
+
+.fourth-section {
+    height: 50%; 
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 25%;
+}
+
+.s4-container {
+    background-color: rgb(237, 236, 236);
+    padding: 20px;
+    margin-bottom: 40px;
+    height: 500px;
+
+    text-align: center;
+}
+
+.s4-container h1 {
+    text-align: center;
+}
+
+.s4-container h4, .s4-container p {
+    text-align: center;
+}
+
+/*Fifth Section*/
+
+.fifth-section {
+    height: 515px;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 120px;
+}
+
+.s5-container1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.s5-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.value-box {
+    text-align: center;
+}
+
+.value-box > i {
+    margin-bottom: 20px;
+}

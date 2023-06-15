@@ -1,0 +1,150 @@
+body {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+/* Navbar code to prevent pushing div content to the bottom */
+.navbar {
+    position: absolute;
+    width: 100%;
+}
+
+/*First Section*/
+
+.first-section {
+    height: 761px;
+    background-image: url(../images/church-1993645_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/* For divs, text, images, that you want to respect width until shrunk, use px or em since using % shrinks div, images, and content depending on screen size*/
+
+p {
+    /* 1em is = 16px */
+    font-size: 1em;
+    font-family: sans-serif; 
+}
+h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+}
+h4 {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.title-div {
+   width: 50%;
+   height: 430px;
+   padding: 10px;
+
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+/*Second Section*/
+.second-section {
+    background-color:#6CABB7;
+    height: 150px;
+}
+
+.s2-text-div1 {
+    height: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*Third Section*/
+
+.third-section {
+    height: 20%;
+    color: black;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    text-align: justify;
+    background-color: #d4ebf1;
+
+}
+
+.first-ul {
+    padding: 100px;
+}
+
+.img1 {
+    width: 350px;
+    height: 250px;
+}
+.img2 {
+    width: 350px;
+    height: 250px;
+}
+
+
+/*Fourth Section*/
+
+.fourth-section {
+    background-color:aliceblue;
+    height: 150px;
+}
+
+.s4-text-div1 {
+    height: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#6CABB7;
+}
+
+/*Fifth Section*/
+
+.fifth-section {
+
+    color: black;
+}
+
+.img3 {
+    width: 400px;
+    height: 250px;
+}
+
+.s5-div1 {
+    text-align: center;
+
+}
+
+.s5-paragraph {
+    padding: 100px;
+}
+
+/*Sixth Section*/
+
+.sixth-section {
+    background-color:aliceblue;
+    height: 150px;
+}
+
+.s6-text-div1 {
+    height: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#6CABB7;
+}
